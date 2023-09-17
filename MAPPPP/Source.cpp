@@ -8,9 +8,6 @@
 
 // Cezar encrypt
 
-
-//TODO move all functions to the class
-
 int main() {
 
 
@@ -32,7 +29,7 @@ int main() {
 	Decoder dc;
 	while (true) {
 		std::cout << "Enter the word you want to encrypt\n";
-		std::vector<std::string> word;
+		std::vector<std::string> word;                       //TODO FIXME!!!
 		std::string wrd;
 		word.push_back(wrd);
 		system("cls");
